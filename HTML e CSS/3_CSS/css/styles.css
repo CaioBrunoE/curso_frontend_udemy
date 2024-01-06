@@ -1,0 +1,518 @@
+/*External*/
+
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+/*p {
+    color: blueviolet;
+}/
+
+/*Comentario*/
+/*Comentario*/
+
+/*Class*/
+.paragrafh {
+    color: aquamarine;
+    background-color: black;
+}
+
+/*ID*/
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+/*9- Multiplas ordems do css*/
+h2 {
+    border-bottom: 2px solid red;
+
+}
+
+.titulo {
+    border-bottom: 2px solid blue;
+
+}
+
+#algum-titulo {
+    border-bottom: 2px solid green;
+}
+
+/*11- Nome de corres*/
+.color-name {
+    color: bisque;
+}
+
+/*12- HEX*/
+.hex {
+    color: #55a398;
+}
+
+.hex-2 {
+    color: #78a423;
+}
+
+/* 13-+ sobre o  HEX -*/
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+}
+
+/*14- RGB */
+.rgb {
+    color: rgb(255, 0, 1);
+}
+
+.mixer-rgb {
+    color: rgb(143, 99, 32);
+}
+
+
+/*15- RGBA */
+.rgba {
+    color: rgba(10, 182, 167, 0.3);
+}
+
+/*16- hsl */
+.hsl {
+    color: hsl(345, 79%, 90%);
+}
+
+.hsl-2 {
+    color: hsl(45, 9%, 99%);
+}
+
+/*Background*/
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 56, 89);
+    color: #00eaff;
+}
+
+/*Background-pacity*/
+.bg-opacity {
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
+
+/*RGBA com opacidade*/
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #000;
+}
+
+/*Background image*/
+.bg-image {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+}
+
+/*centraizando bg image*/
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/bridge.jpg);
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/*Largura e Altura*/
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}
+
+/*Padding*/
+.whithount-padding,
+.padding {
+
+    background-color: #111;
+    color: #fff;
+}
+
+.padding {
+    background-color: #333111;
+    padding: 20px;
+}
+
+/*Padding-individual*/
+.Padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/*Shothand padding*/
+.shothand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shothand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+/*Padding com width*/
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #463;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+/*border*/
+.border {
+    border: red solid 5px;
+    padding: 10pz;
+}
+
+.border-2 {
+    border: green dotted 5px;
+    padding: 10pz;
+}
+
+/*border individual*/
+.border-left {
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+
+.border-bottom {
+    border-bottom: #777 double 5px;
+    background-color: #00eaff;
+    padding: 25px;
+}
+
+/*borda arredondada*/
+.rounded-p {
+    border: solid 4px blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p-2 {
+
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/*borda arredondada*/
+.margim {
+    margin: 10px;
+    background-color: #222;
+}
+
+.margim-top {
+    margin-top: 50px;
+    padding: 19px;
+    background-color: #444;
+}
+
+.margim-shothand {
+    background-color: #666;
+    margin: 5px 10 15xp 29px;
+}
+
+/*box model*/
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #848;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+}
+
+
+/*desafio-3*/
+.desafio-3 {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #848;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+}
+
+.h2-desafio-3 {
+    outline: 3px solid blue;
+    background-color: #463;
+}
+
+/*text-alined*/
+
+.text-alined {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/*text-decoration*/
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remover-underline {
+    text-decoration: none;
+    color: red;
+
+}
+
+/*text-transform*/
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/*Latter space*/
+.spacing {
+    letter-spacing: 5px;
+}
+
+/*Latter space*/
+.serif {
+    font-family: Georgia;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasty {
+    font-family: fantasy;
+}
+
+/*text style*/
+.italico {
+    font-style: italic;
+}
+
+.oblico {
+    font-style: oblique;
+}
+
+/*font weight*/
+.thin,
+.bold,
+.bolder {
+    font-family: helvetica;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/*font size*/
+.small {
+    font-size: 6px;
+}
+
+.big {
+    font-size: 78px;
+}
+
+/*display*/
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
+
+/*Escondendo elemntos*/
+.invisible {
+    display: none;
+}
+
+/*position satic*/
+.static {
+
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/*position relative*/
+.relative {
+    position: relative;
+    background-color: #678;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 40px;
+    left: 100px;
+}
+
+/*position absolute*/
+.absolute {
+    position: absolute;
+    background-color: #931;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2pc;
+    right: 2px;
+
+}
+
+/*Relative com absolute*/
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 125px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/*Position fixed*/
+.fixed {
+    width: 100px;
+    height: 100px;
+    background-color:  blue;
+    border: 1px solid #851;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/*Position sticky*/
+.sticky {
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid #994;
+    background-color:  green;
+    position: sticky;
+    top: 10px;
+
+}
+
+/*Z-index*/
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+    z-index: 1;
+}

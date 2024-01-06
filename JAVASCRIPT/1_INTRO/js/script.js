@@ -1,0 +1,1 @@
+console.log("Executando js 2")
